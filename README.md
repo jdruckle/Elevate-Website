@@ -1,1 +1,2 @@
-Elevate-Website
+The Elevate Wyoming website.
+Currently under development
