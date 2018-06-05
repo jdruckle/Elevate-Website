@@ -1,59 +1,165 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" class="full-height">
 
 <head>
   <meta charset="UTF-8">
   <meta name="description" content="Elevate Wyoming Website">
   <meta name="keywords" content="HTML,CSS,XML,JavaScript">
   <meta name="author" content="Jordan Ruckle">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link href="css/fontawesome-all.css" rel="stylesheet">
-  <link href="css/format.css" rel="stylesheet">
   <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   <link href="css/animate.css" rel="stylesheet">
+  <link rel="icon" href="images/elevate-logo.jpg">
 
   <title>Elevate Wyoming</title>
 
 </head>
 
+<!--Main Navigation-->
+<header>
+
+  <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <a id="nav-toggle" href="#"><span></span></a>
+    </button>
+    <a class="navbar-brand" href="home.html">
+        <img alt="Elevate Wyoming Logo" src="images/elevate-logo-trans-narrow.png" height="20%" width="20%">
+      </a>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Testimonials</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+</header>
+
 <body>
-
-  <header>
-
-    <section class="navigation">
-      <div class="nav-container">
-        <div class="brand">
-          <a href="home.html">
-            <img src="images/elevate-logo.jpg" height="70" width="135"></a>
-          </div>
-          <nav>
-            <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
-            <ul class="nav-list">
-              <li><a href="#!">Home</a></li>
-              <li><a href="#!">About</a></li>
-              <li><a href="#!">Pricing</a></li>
-              <li><a href="#!">Web Design</a></li>
-              <li><a href="#!">Web Development</a></li>
-              <li><a href="#!">Graphic Design</a></li>
-              <li><a href="#!">Contact</a></li>
-            </ul>
-          </nav>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <!-- <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li> -->
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <img class="first-slide" src="images/home/bg2.jpg" alt="First slide">
+      <div class="container">
+        <div class="carousel-caption d-none d-md-block text-left">
+          <h1>Elevate Wyoming</h1>
+          <p>We want to help you ascend new heights</p>
+          <p><a class="btn btn-lg btn-primary" href="#" role="button">Contact Us</a></p>
         </div>
-      </section>
-
-      <article>
-        <h2>Test</h2>
-        <h3>Test</h3>
-        <p>Test</p>
-
-      </article>
-
-    </header>
-
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/navigation.js"></script>
-  </body>
+      </div>
+    </div>
+  </div>
+</div>
 
 
-  </html>
+<!-- Marketing messaging and featurettes
+================================================== -->
+<!-- Wrap the rest of the page in another container to center all the content. -->
+
+<div class="container marketing">
+
+  <!-- Three columns of text below the carousel -->
+  <div class="row">
+    <div class="col-lg-4">
+      <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+      <h2>Test</h2>
+      <p>Test line of random nonsense</p>
+      <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+      <h2>Test</h2>
+      <p>Test line of random nonsense</p>
+      <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+      <h2>Test</h2>
+      <p>Test line of random nonsense</p>
+      <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+  </div><!-- /.row -->
+
+
+  <!-- START THE FEATURETTES -->
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+      <p class="lead">Your mind have been blown</p>
+    </div>
+    <div class="col-md-5">
+      <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7 push-md-5">
+      <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+      <p class="lead">Bam. Get your wallet out.</p>
+    </div>
+    <div class="col-md-5 pull-md-7">
+      <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+      <p class="lead">We win.</p>
+    </div>
+    <div class="col-md-5">
+      <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <!-- /END THE FEATURETTES -->
+
+
+  <!-- FOOTER -->
+  <footer>
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p>&copy; Copyright Us &middot; <a href="#">Click</a> &middot; <a href="#">Second Click</a></p>
+  </footer>
+
+</div><!-- /.container -->
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+<script src="js/vendor/holder.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
