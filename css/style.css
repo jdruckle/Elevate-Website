@@ -193,6 +193,12 @@ header[role="header"].header-top section a.button-header:hover{background-color:
 
 .section-one section figure{background-position:50% 0; background-size:cover; background-repeat:no-repeat; background-attachment:fixed; min-height:450px}
 
+@media (max-width: 500px) {
+	.section-one section figure {
+		height: 150px;
+	}
+}
+
 .section-one section:hover img{-webkit-transform:scale(1.3);transform:scale(1.3);}
 
 .section-one section article{ padding-left:14%; padding-right:90px; padding-top:94px;}
@@ -329,9 +335,48 @@ section a.button-header:hover{background-color:#b28919; text-decoration:none}
 
 
 	 .landing body {
-	   background-image: url("images/bg.jpg") no-repeat center center fixed;
-	   -webkit-background-size: cover;
-	   -moz-background-size: cover;
-	   background-size: cover;
-	   -o-background-size: cover;
+	     background: url('../images/bg.jpg') no-repeat center center fixed;
+	     -webkit-background-size: cover;
+	     -moz-background-size: cover;
+	     background-size: cover;
+	     -o-background-size: cover;
+	 }
+
+.landing .holder {
+
+	margin-top: 15%;
+}
+
+	 .landing .text-container {
+		 padding: 5px;
+		 background: rgba(0, 0, 0, 0.7);
+	   border-radius: 25px;
+		 width: 50%;
+		 margin-left: auto;
+	 	margin-right: auto;
+	 }
+
+	 .landing .footer {
+		 width: 100%;
+		 bottom: 0px;
+		 padding-top: 15px;
+		 padding-bottom: 5px;
+	 }
+
+	 .landing h2 {
+		 color: #ffffff;
+	 }
+
+	 .landing p {
+		 color: #b2b2b2;
+	 }
+
+	 .landing .landing-button {
+		 padding: 5px;
+	 }
+
+	 @media (min-height: 500px) {
+		 .landing .footer {
+			 position: absolute;
+		 }
 	 }
