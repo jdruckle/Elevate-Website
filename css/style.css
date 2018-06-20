@@ -375,12 +375,3 @@ section a.button-header:hover{background-color:#b28919; text-decoration:none}
 		 padding: 5px;
 		 padding-top: 15px;
 	 }
-
-	 @media (min-height: 500px) {
-		 .landing .footer {
-			 position: absolute;
-		 }
-		 .landing .landing-button {
-
-		 }
-	 }
