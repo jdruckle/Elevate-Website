@@ -6,7 +6,6 @@
 	header.header-top[role="header"] hgroup nav ul > li > a{ padding:0 5px 0 9px}
 	header.header-top[role="header"] section{ top:14%}
 	.section-two section article{ padding-right:20px; padding-left:5%; padding-top:20px}
-	.pricing > section{ margin:0; width:32%; max-width:32%}
 	.test-pan section { margin-bottom:30px}
 	.test-pan figure img{ margin:0 auto; width:100%; max-width:100%; display:block}
 	.contact-form{ padding-left:20px; padding-right:20px}
@@ -21,7 +20,7 @@
 	header.header-top[role="header"] section a{ font-size:14px; padding:0 20px; line-height:55px}
 	header.header-top[role="header"] hgroup{ position:relative}
 	header.header-top[role="header"] hgroup nav { margin-top:0}
-	header.header-top[role="header"] hgroup nav .navbar-toggle{ position:absolute; margin:0; top:-48px; right:15px}
+	header.header-top[role="header"] hgroup nav .navbar-toggle{ position:absolute; margin:0; top:-33px; right:15px}
 
 	header.header-top[role="header"] .navbar-fixed-top h1 img{ padding-top: 10px; width:60%}
 	header.header-top[role="header"] hgroup nav ul{ text-align:center; background-color:rgba(0,0,0,0.8); padding:10px}
