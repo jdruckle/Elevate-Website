@@ -10,9 +10,7 @@ function isEmail($email) {
 if (!defined("PHP_EOL")) define("PHP_EOL", "\r\n");
 
 $name     = $_POST['name'];
-$companyname     = $_POST['companyname'];
 $email    = $_POST['email'];
-$tel    = $_POST['tel'];
 $comments = $_POST['comments'];
 
 if(trim($name) == '') {

@@ -190,7 +190,7 @@ header[role="header"].header-top section a.button-header:hover{background-color:
 /*== Section One ==*/
 
 .section-one{
-	background: linear-gradient(to bottom right, #ce9e1d , yellow);
+	background: linear-gradient(to bottom, #ce9e1d , #ffffff);
 	background-position: center center;
 	margin-top:0px;
 	overflow:hidden;
@@ -246,7 +246,7 @@ header[role="header"].header-top section a.button-header:hover{background-color:
 .test-pan figure{ display: inline-block; height:280px; width: 280px; padding: 15px; border:5px solid #e5b021; overflow:hidden; background-color:#FFF;}
 
 .test-pan img {
-	position: static; margin: auto;
+	vertical-align: middle;
 }
 
 .test-pan section:hover figure img {
