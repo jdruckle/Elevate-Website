@@ -189,31 +189,23 @@ header[role="header"].header-top section a.button-header:hover{background-color:
 
 /*== Section One ==*/
 
-.section-one{ background-color:#f7f7f8; margin-top:0px; overflow:hidden}
-
-.section-one section figure{background-position:50% 0; background-size:cover; background-repeat:no-repeat; background-attachment:fixed; min-height:450px}
-
-@media (max-width: 500px) {
-	.section-one section figure {
-		height: 150px;
-	}
+.section-one{
+	background: linear-gradient(to bottom right, #ce9e1d , yellow);
+	background-position: center center;
+	margin-top:0px;
+	overflow:hidden;
+	background-position:50% 0;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	min-height:450px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
-.section-one section:hover img{-webkit-transform:scale(1.3);transform:scale(1.3);}
+.section-one section article{ padding-left:14%; padding-right:90px; padding-top:94px; background-color: rgba(229, 176, 33, .5)}
 
-.section-one section article{ padding-left:14%; padding-right:90px; padding-top:94px;}
-
-.section-one section:last-child article{ padding-left:11%}
-
-.section-one section article h2{ font-size:31px; line-height:36px; font-weight:300; color:#000; padding-bottom:12px}
-
-.section-one section article p{ line-height:27px; color:#5e5e64; padding-bottom:17px; font-weight:500}
-
-.section-one section article ul{ margin:0; padding:0; list-style:none}
-
-.section-one section article ul>li{ padding-bottom:10px}
-
-.section-one section article ul>li:before{content:"\f046";font-family:'FontAwesome'; color:#222222; font-size:16px; padding-right:9px}
+.section-one section article h2{ font-size:31px; line-height:36px; font-weight:300; color:#000; padding-bottom:12px; }
 
 /*== Three Box Pan ==*/
 
@@ -247,17 +239,27 @@ header[role="header"].header-top section a.button-header:hover{background-color:
 
 /* Testimonials */
 
-.test-pan figure{ display: table-cell; vertical-align: middle; height:280px; width: 280px; padding:10%; border:5px solid #e5b021; overflow:hidden; background-color:#FFF;}
+.test-pan {
+	display: block;
+}
 
-.test-pan section:hover figure img{webkit-transform:scale(1.1);
+.test-pan figure{ display: inline-block; height:280px; width: 280px; padding: 15px; border:5px solid #e5b021; overflow:hidden; background-color:#FFF;}
 
-transform:scale(1.1); opacity:0.8}
+.test-pan img {
+	position: static; margin: auto;
+}
 
-.test-pan header{ text-align:center; padding-top:38px}
+.test-pan section:hover figure img {
 
-.test-pan header h5,.team-pan header h6{ font-size:15px; line-height:16px; padding:0; margin:0; color:#5e5e64; font-weight:400}
+webkit-transform:scale(1.1);
+transform:scale(1.1); opacity:0.8
+}
 
-.test-pan header h5{ text-transform:uppercase; font-weight:700; color:#000; padding-bottom:8px; display:block}
+.test-pan header{ text-align:center; padding-top:5px; }
+
+.test-pan header h5,.test-pan header h6 { font-size:15px; line-height:16px; padding:0; margin:0; color:#5e5e64; font-weight:400}
+
+.test-pan header h5{ text-transform:uppercase; font-weight:700; color:#000; padding-bottom: 25px; display:block}
 
 /*== Section Four ==*/
 
@@ -291,12 +293,6 @@ transform:scale(1.1); opacity:0.8}
 
 .contact-form input[type="submit"]:hover{ background-color:#e5b021}
 
-/* Map */
-
-.map-wrapper{ width:100%; height:318px}
-
-.map-wrapper #surabaya{ width:100%; height:100%}
-
 /*== Footer ==*/
 
 .footer{ background-color:#333333; padding-top:101px; padding-bottom:104px; text-align:center}
@@ -315,6 +311,9 @@ transform:scale(1.1); opacity:0.8}
 
 .footer .copy{ padding:0; margin:0; color:#b6b6b6; font-size:13px; line-height:17px; font-weight:300; padding-top:7px; letter-spacing:1px}
 .footer .copy a{color:#b6b6b6;}
+
+
+
 
 /*== General ==*/
 
@@ -343,8 +342,9 @@ section a.button-header:hover{background-color:#b28919; text-decoration:none}
 	 }
 
 .landing .holder {
-
-	margin-top: 15%;
+	position: static;
+	margin-top: 20%;
+	margin-bottom: 20%;
 }
 
 	 .landing .text-container {
@@ -373,10 +373,14 @@ section a.button-header:hover{background-color:#b28919; text-decoration:none}
 
 	 .landing .landing-button {
 		 padding: 5px;
+		 padding-top: 15px;
 	 }
 
 	 @media (min-height: 500px) {
 		 .landing .footer {
 			 position: absolute;
+		 }
+		 .landing .landing-button {
+
 		 }
 	 }
