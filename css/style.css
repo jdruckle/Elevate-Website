@@ -243,10 +243,10 @@ header[role="header"].header-top section a.button-header:hover{background-color:
 	display: block;
 }
 
-.test-pan figure{ display: inline-block; height:280px; width: 280px; padding: 15px; border:5px solid #e5b021; overflow:hidden; background-color:#FFF;}
+.test-pan figure{ display: inline-block; height:280px; width: 280px; padding: 15px; border:5px solid #e5b021; overflow:hidden; background-color:#FFF; vertical-align: middle;}
 
 .test-pan img {
-	vertical-align: middle;
+display: inline-block; vertical-align: middle;
 }
 
 .test-pan section:hover figure img {
