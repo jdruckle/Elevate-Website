@@ -319,9 +319,7 @@ transform:scale(1.1); opacity:0.8
 
 section a.button-header{ display: inline-block; text-align:center; margin:0 auto; line-height:63px; font-size:16px; font-weight:400; padding:0 53px; color:#FFF; background-color:#e5b021; border-radius:4px; text-transform:uppercase}
 
-section a.button-header:hover{background-color:#b28919; text-decoration:none}
-
-
+section a.button-header:hover{ background-color:#b28919; text-decoration:none}
 
 
 
