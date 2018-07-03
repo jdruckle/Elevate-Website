@@ -424,6 +424,8 @@ section a.button-header:hover{ background-color:#b28919; text-decoration:none}
 	   background-color: white;
 	   text-align: center;
 	   padding: 25px;
+		 height: 275px;
+		 color: black;
 	 }
 	 #partner .partner-item .partner-caption h4 {
 	   text-transform: none;
