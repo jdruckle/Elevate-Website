@@ -1,3 +1,18 @@
+/* Responsive class design */
+.mobile {
+    display: none;
+}
+.desktop {
+    display: auto;
+}
+@media screen and (max-width: 736px) {
+    .mobile {
+        display: block;
+    }
+    .desktop {
+        display: none;
+    }
+}
 /* md */
 @media (min-width: 992px) and (max-width: 1199px) {
 }

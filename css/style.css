@@ -444,22 +444,6 @@ section a.button-header{ display: inline-block; text-align:center; margin:0 auto
 
 section a.button-header:hover{ background-color:#b28919; text-decoration:none}
 
-/* Displays different content on different devices*/
-.mobile {
-    display: none;
-}
-.desktop {
-    display: auto;
-}
-@media screen and (max-width: 736px) {
-    .mobile {
-        display: block;
-    }
-    .desktop {
-        display: none;
-    }
-}
-
 
 
 
