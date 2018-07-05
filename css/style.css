@@ -189,6 +189,17 @@ header[role="header"].header-top section a.button-header{ display: inline-block;
 
 header[role="header"].header-top section a.button-header:hover{background-color:#b28919; text-decoration:none}
 
+
+/*== Header blocks ==*/
+
+.header-block{text-decoration:none; color:#ffffff; text-transform: uppercase; height: 100px}
+
+.hb1{background-color:#492f24}
+
+.hb2{background-color:#3a251c}
+
+.hb3{background-color:#2b1c15}
+
 /*== Section One ==*/
 
 .section-one{
@@ -294,6 +305,10 @@ header[role="header"].header-top section a.button-header:hover{background-color:
 	text-transform: none;
 	margin: 0;
 }
+/* #partner .partner-item img {
+	height: auto;
+	width: auto;
+} */
 #partner .partner-item .partner-caption p {
 	font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-style: italic;
