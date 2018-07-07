@@ -192,13 +192,13 @@ header[role="header"].header-top section a.button-header:hover{background-color:
 
 /*== Header blocks ==*/
 
-.header-block{text-decoration:none; color:#ffffff; text-transform: uppercase; height: 100px}
+.header-block{text-decoration:none; color:#ffffff; background-color: #5b4339; text-transform: uppercase}
 
-.hb1{background-color:#492f24}
+.hb1{background-color:#492f24; height: 100px; padding-top: 15px; padding-bottom: 15px}
 
-.hb2{background-color:#3a251c}
+.hb2{background-color:#3a251c; height: 100px; padding-top: 15px; padding-bottom: 15px}
 
-.hb3{background-color:#2b1c15}
+.hb3{background-color:#2b1c15; height: 100px; padding-top: 15px; padding-bottom: 15px}
 
 /*== Section One ==*/
 
@@ -305,10 +305,6 @@ header[role="header"].header-top section a.button-header:hover{background-color:
 	text-transform: none;
 	margin: 0;
 }
-/* #partner .partner-item img {
-	height: auto;
-	width: auto;
-} */
 #partner .partner-item .partner-caption p {
 	font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-style: italic;
