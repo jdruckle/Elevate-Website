@@ -216,9 +216,11 @@ header[role="header"].header-top section a.button-header:hover{background-color:
 	padding-bottom: 50px;
 }
 
-.section-one section article{ padding-left:14%; padding-right:90px; padding-top:94px; background-color: rgba(229, 176, 33, .5)}
+.section-one h1{ font-style: normal; font-variant: normal; font-weight: 500; padding-bottom: 15px}
 
-.section-one section article h2{ font-size:31px; line-height:36px; font-weight:300; color:#000; padding-bottom:12px; }
+.section-one h4{ font-style: normal; font-variant: normal; font-weight: 500; padding-bottom: 10px}
+
+.section-one .icon-container{ padding-top: 15px;}
 
 /*== Three Box Pan ==*/
 
