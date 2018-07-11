@@ -194,6 +194,8 @@ header[role="header"].header-top section a.button-header:hover{background-color:
 
 .header-block{text-decoration:none; color:#ffffff; background-color: #5b4339; text-transform: uppercase}
 
+.header-block .container{width: 100%}
+
 .hb1{background-color:#492f24; height: 100px; padding-top: 15px; padding-bottom: 15px}
 
 .hb2{background-color:#3a251c; height: 100px; padding-top: 15px; padding-bottom: 15px}
