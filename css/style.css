@@ -220,6 +220,82 @@ header[role="header"].header-top section p{ font-size:19px; line-height:20px; fo
 
 .section-one .icon-container{ padding-top: 15px;}
 
+/*== checkbox-section ==*/
+
+.checkbox-section {
+  padding: 100px 0;
+	background-color: rgb(247,247,248);
+}
+.checkbox-table {
+  border: 1px solid #f2f2f2;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.checkbox-table .checkbox-body ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.checkbox-table .checkbox-body ul li {
+  padding: 8px 25px;
+  margin: 0;
+	font-size: 20px
+}
+.checkbox-table .checkbox-body ul li:nth-child(even) {
+  background-color: #fafafa;
+}
+.checkbox-table .checkbox-body .fa-check{ color: #4ecdc4; padding-right: 5px; font-size: 18px}
+
+/*== Tri-Panel ==*/
+
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 60px;
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-indicators {
+    position: relative;
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-top: 20px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all .4s ease-in;
+    vertical-align: middle;
+}
+#quote-carousel .carousel-indicators .active {
+    width: 128px;
+    height: 128px;
+    opacity: 1;
+    transition: all .2s;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+
+/*== Read-More ==*/
+
+.read-more-section{ background-color: rgb(247,247,248)}
+
+.read-more-text{ width: 50%}
+
 /*== Three Box Pan ==*/
 
 .three-box-pan{ overflow:hidden; padding-top:81px}
@@ -454,6 +530,8 @@ header[role="header"].header-top section p{ font-size:19px; line-height:20px; fo
 section a.button-header{ display: inline-block; text-align:center; margin:0 auto; line-height:63px; font-size:16px; font-weight:400; padding:0 53px; color:#FFF; background-color:#e5b021; border-radius:4px; text-transform:uppercase}
 
 section a.button-header:hover{ background-color:#b28919; text-decoration:none}
+
+.section{ padding-top: 65px; padding-bottom: 50px}
 
 
 
