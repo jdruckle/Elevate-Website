@@ -38,6 +38,7 @@
 	header.header-top[role="header"] .navbar-fixed-top h1 img{ padding-top: 10px; width:60%}
 	header.header-top[role="header"] hgroup nav ul{ text-align:center; background-color:rgba(0,0,0,0.8); padding:10px}
 	header.header-top[role="header"] hgroup nav ul > li{ display:block;}
+
 	.section-one section article{ padding-left:0; padding-right:0; padding-top:0px}
 	.section-one section:last-child article{ padding-left:0}
 	.slider-pan section article{ margin:0 4%}
@@ -52,4 +53,6 @@
 }
 @media (max-width: 414px) {
 	header.header-top[role="header"] section h2{ font-size:36px; line-height:41px}
+  body a.button-header{ font-size: 12px}
+  .hb1 h3, .hb2 h3, .hb3 h3{font-size: 18px}
 }
