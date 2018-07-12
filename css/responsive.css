@@ -26,7 +26,7 @@
 }
 /* xs */
 @media (max-width: 767px) {
-	header.header-top[role="header"] .container{ padding-top:10px; z-index:6}
+	header.header-top[role="header"] .container{ padding-top:10px; z-index:6; height: 600px}
 	header.header-top[role="header"] section h2{ font-size:26px; line-height:28px; margin-bottom:2px}
 	header.header-top[role="header"] section p{ font-size:15px; line-height:30px; margin:0 3%; padding-top:5px}
 	header.header-top[role="header"] section a{ font-size:14px; padding:0 20px; line-height:55px}
@@ -52,6 +52,8 @@
 }
 @media (max-width: 414px) {
 	header.header-top[role="header"] section h2{ font-size:36px; line-height:41px}
+  header.header-top[role="header"] .parallax-window{ min-height: 800px}
+
   body a.button-header{ font-size: 12px}
   .hb1 h3, .hb2 h3, .hb3 h3{font-size: 18px}
 }
