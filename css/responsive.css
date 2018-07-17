@@ -42,6 +42,7 @@
 	.section-one section:last-child article{ padding-left:0}
 	.slider-pan section article{ margin:0 4%}
 	.slider-pan section article br,.section-three header[role="title-page"] h4 br, .section-three header[role="title-page"] h2 br,.section-two article p br{ display:none}
+  #quote-carousel { min-height: 350px}
 	.section-two header[role="title-page"]{ padding-bottom:20px}
 	.contact-form{ padding-left:0; padding-right:0}
 	.contact-form input[type="email"]{ border-left:1px solid #dbdbdb; margin:20px 0}
@@ -50,9 +51,13 @@
 	.socil-icons a{ margin:0 2px; width:30px; height:30px; font-size:15px; line-height:30px}
 	.footer nav{ padding-top:10px}
 }
+@media (max-width:460px) {
+  #quote-carousel { min-height: 475px}
+}
 @media (max-width: 414px) {
 	header.header-top[role="header"] section h2{ font-size:36px; line-height:41px}
   header.header-top[role="header"] .parallax-window{ min-height: 800px}
+  #quote-carousel { min-height: 600px; padding-bottom: 0px}
 
   body a.button-header{ font-size: 12px}
   .hb1 h3, .hb2 h3, .hb3 h3{font-size: 18px}
