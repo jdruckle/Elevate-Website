@@ -14,7 +14,13 @@
     }
 }
 /* md */
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (max-width: 1199px) {
+  .checkbox-table .checkbox-body-2 ul li:nth-child(odd) {
+    background-color: #fafafa;
+  }
+  .checkbox-table .checkbox-body-2 ul li:nth-child(even) {
+    background-color: #fff;
+  }
 }
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
