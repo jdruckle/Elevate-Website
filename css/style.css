@@ -533,7 +533,7 @@ header[role="header"].header-top section p{ font-size:19px; line-height:20px; fo
 
 /*== General ==*/
 
-section a.button-header{ display: inline-block; text-align:center; margin:0 auto; line-height:63px; font-size:16px; font-weight:400; padding:0 53px; color:#FFF; background-color:#e5b021; border-radius:4px; text-transform:uppercase}
+section a.button-header{ display: inline-block; text-align:center; margin:0 auto; line-height:63px; font-size:16px; font-weight:400; padding-left: 15px; padding-right: 15px; color:#FFF; background-color:#e5b021; border-radius:4px; text-transform:uppercase}
 
 section a.button-header:hover{ background-color:#b28919; text-decoration:none}
 
