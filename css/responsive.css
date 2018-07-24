@@ -71,3 +71,7 @@
   body a.button-header{ font-size: 12px}
   .hb1 h3, .hb2 h3, .hb3 h3{font-size: 18px}
 }
+
+@media (min-width: 1200px) {
+   .section-one .button-area { padding-top:185px}
+}
