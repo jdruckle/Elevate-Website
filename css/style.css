@@ -292,6 +292,22 @@ header[role="header"].header-top section p{ font-size:19px; line-height:20px; fo
     margin: 0;
 }
 
+/*== package pricing ==*/
+.packagepricing .package-pricing-button {color:#e5b021}
+.packagepricing .modal-body:not(.two-col) { padding:0px }
+.packagepricing .modal-dialog {padding-top: 150px}
+.packagepricing .panel-heading {background-color:#e5b021 !important}
+.packagepricing .glyphicon { margin-right:5px; }
+.packagepricing .glyphicon-new-window { margin-left:5px; }
+.packagepricing .modal-body .radio,.modal-body .checkbox {margin-top: 0px;margin-bottom: 0px;}
+.packagepricing .modal-body .list-group {margin-bottom: 0;}
+.packagepricing .margin-bottom-none { margin-bottom: 0; }
+.packagepricing .modal-body .radio label,.modal-body .checkbox label { display:block; }
+.packagepricing .modal-footer {margin-top: 0px;}
+.packagepricing .modal-footer .btn+.btn {
+    margin-left: 0px;
+}
+
 /*== Read-More ==*/
 
 .read-more-section{ background-color: rgb(247,247,248)}
