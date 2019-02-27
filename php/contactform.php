@@ -71,7 +71,7 @@ if(get_magic_quotes_gpc()) {
 }
 
 // Import captcha files
-include_once $_SERVER['DOCUMENT_ROOT'] . '../securimage/securimage.php';
+include_once $_SERVER['DOCUMENT_ROOT'] . '/securimage/securimage.php';
 $securimage = new Securimage();
 
 // Check captcha
