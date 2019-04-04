@@ -130,6 +130,27 @@ a:focus, img:focus, button:focus, .btn:focus {
 
 @font-face {font-family: 'Raleway', sans-serif;}
 
+/* preloader */
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 999;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.preloader img {
+	width: 60vw;
+}
+
 /*===== Header ===*/
 
 header[role="header"].header-top,header[role="header"].header-top figure{ position:relative; height:100%;}
