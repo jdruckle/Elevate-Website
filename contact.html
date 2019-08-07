@@ -133,7 +133,40 @@
   <!-- main -->
   <main role="main" id=" main-wrapper">
 
-
+    <!-- section-four -->
+    <section class="section-four section" id="section-four">
+      <div class="container">
+        <header role="title-page" class="text-center">
+          <h2>What Do You Lose by Not Elevating?</h2>
+          <br>
+          <h3>How much are partially or completely <b>disengaged</b> employees costing you? How many potentially great employees might you <b>lose</b>? How much time are you wasting because of <b>poor communication</b>? How effective are your managers at truly <b>leading</b> and <b>developing people</b>? How much time are you spending in <b>frustration</b> because everybody isn’t on the same page, working together to move your business forward? How much higher could your <b>productivity</b> be? Every day your team performs at <b>less than capability</b>, it costs you too much.</h3>
+        </header>
+      </div>
+    </section>
+    
+    <section class="contact-form-section section" id="contact-form">
+      <div class="container">
+        <!-- contact-form -->
+        <div class="contact-form">
+          <div id="message"></div>
+          <form method="post" action="php/contactform.php" name="cform" id="cform">
+            <div class="col-md-6 col-lg-6 col-sm-6">
+              <input  name="name" id="name" type="text" placeholder="Full Name">
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-6">
+              <input  name="email" id="email" type="email"  placeholder="Email Address">
+            </div>
+            <div class="clearfix"></div>
+            <textarea name="comments" id="comments" cols="" rows="" placeholder="Question in Detail"></textarea>
+            <div class="clearfix"></div>
+            <img id="captcha" src="/securimage/securimage_show.php" alt="CAPTCHA Image" />
+            <input type="text" name="captcha_code" size="10" maxlength="6" />
+            <a href="#" onclick="document.getElementById('captcha').src = '/securimage/securimage_show.php?' + Math.random(); return false">[ Different Image ]</a>
+            <input name="" type="submit" value="Send message">
+            <div id="simple-msg"></div>
+          </form>
+        </div>
+        <!-- contact-form -->
 
 
 
