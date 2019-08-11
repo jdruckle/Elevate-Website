@@ -206,18 +206,12 @@ header[role="header"].header-top section h2{ font-size:48px; line-height:50px; f
 
 header[role="header"].header-top section p{ font-size:19px; line-height:20px; font-weight:500; padding-top:15px}
 
+/*== Banner ==*/
 
-/*== Header blocks ==*/
-
-.header-block{text-decoration:none; color:#ffffff; background-color: #5b4339; text-transform: uppercase}
-
-.header-block .container{width: 100%}
-
-.hb1{background-color:#492f24; height: 100px; padding-top: 15px; padding-bottom: 15px}
-
-.hb2{background-color:#3a251c; height: 100px; padding-top: 15px; padding-bottom: 15px}
-
-.hb3{background-color:#2b1c15; height: 100px; padding-top: 15px; padding-bottom: 15px}
+#banner p {
+	margin-left: 10%;
+	margin-right: 10%;
+}
 
 /*== Section One ==*/
 
