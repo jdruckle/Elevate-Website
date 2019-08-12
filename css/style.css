@@ -177,7 +177,7 @@ header[role="header"].header-top hgroup nav ul>li>a:focus{color:#FFF;}
 
 
 
-header[role="header"].header-top hgroup.navbar-fixed-top,header[role="header"].header-top hgroup,header[role="header"].header-top hgroup h1,header[role="header"].header-top hgroup h1 img,header[role="header"].header-top hgroup nav ul,header[role="header"].header-top hgroup nav ul > li,.three-box-pan figure,.three-box-pan figure i,.three-box-pan section,.section-two section,.section-two section figure,.section-two section figure>img,.pricing>section input[type="button"],.pricing>section,.contact-form input[type="text"],.contact-form input[type="email"],.contact-form textarea,.contact-form input[type="submit"]{
+header[role="header"].header-top hgroup.navbar-fixed-top,header[role="header"].header-top hgroup,header[role="header"].header-top hgroup h1,header[role="header"].header-top hgroup h1 img,header[role="header"].header-top hgroup nav ul,header[role="header"].header-top hgroup nav ul > li,.three-box-pan figure,.three-box-pan figure i,.three-box-pan section,.three-steps section,.three-steps section figure,.three-steps section figure>img,.pricing>section input[type="button"],.pricing>section,.contact-form input[type="text"],.contact-form input[type="email"],.contact-form textarea,.contact-form input[type="submit"]{
 	transition-delay:0.0s;
 	transition-duration: 0.5s;
 	transition-property: all;
@@ -345,11 +345,11 @@ header[role="header"].header-top section p{ font-size:19px; line-height:20px; fo
 
 /*== Section Two ==*/
 
-.section-two{ padding-top:87px; padding-bottom: 87px}
+.three-steps{ padding-top:87px; padding-bottom: 87px}
 
-.section-two article{ padding-top:36px}
+.three-steps article{ padding-top:36px}
 
-.section-two article p{ font-size:15px; line-height:27px; color:#5e5e64; font-weight:500}
+.three-steps article p{ font-size:15px; line-height:27px; color:#5e5e64; font-weight:500}
 
 /*== Section Three ==*/
 
