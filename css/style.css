@@ -342,6 +342,21 @@ header[role="header"].header-top section p{ font-size:19px; line-height:20px; fo
 }
 
 
+/*== Impact Projects Section ==*/
+
+.impact-projects-section {
+	padding: 100px 0px;
+}
+
+.impact-projects-section img {
+	width: 100%;
+}
+
+.impact-projects-section .card-body {
+	padding: 30px;
+}
+
+
 /*== Services Timeline ==*/
 
 .services-timeline-section{
