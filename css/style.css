@@ -326,6 +326,134 @@ header[role="header"].header-top section p{ font-size:19px; line-height:20px; fo
     margin: 0;
 }
 
+/*== Services Timeline ==*/
+
+.services-timeline-section{
+    padding: 100px 0px;
+		padding-left: 50px;
+}
+
+.services-timeline{
+    position: relative;
+    z-index: 1;
+}
+.services-timeline:before{
+    content: "";
+    width: 3px;
+    height: 100%;
+    background: #003f5b;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.services-timeline .timeline{
+    margin-bottom: 30px;
+    position: relative;
+}
+.services-timeline .timeline:before,
+.services-timeline .timeline:after{
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+.services-timeline .timeline-content{
+    width: 48%;
+    padding: 0 20px;
+    transition: all 0.3s ease 0s;
+}
+.services-timeline .timeline-icon{
+    width: 16px;
+    height: 10px;
+    background: #ff9420;
+    margin: 0 auto;
+    position: absolute;
+    top: 17px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.services-timeline .timeline-icon:before{
+    content: "";
+    position: absolute;
+    border-bottom: 4px solid #ff9420;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    top: -4px;
+    left: 0;
+}
+.services-timeline .timeline-icon:after{
+    content: "";
+    border-top: 4px solid #ff9420;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+}
+.services-timeline .date{
+    display: inline-block;
+    padding: 2px 5px;
+    background: #ff9420;
+    font-size: 20px;
+    color: #fff;
+}
+.services-timeline .timeline-content.left .date{
+    margin-right: -4px;
+}
+.services-timeline .timeline-content.right .date{
+    margin-left: -4px;
+}
+.services-timeline .title{
+    display: inline-block;
+    padding: 10px;
+    background: #fff;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 800;
+    color: #333;
+}
+.services-timeline .description{
+    padding: 20px;
+    background: rgb(254, 254, 254);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    color: #003f5b;
+}
+.services-timeline .timeline-content.left{
+    text-align: right;
+}
+.services-timeline .timeline-content.right{
+    float: right;
+}
+.services-timeline .timeline-content.left .title{
+    box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+}
+.services-timeline .timeline-content.right .title{
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15)
+}
+@media screen and (max-width: 767px){
+    .services-timeline:before{
+        left: 0;
+        margin: 0;
+    }
+    .services-timeline .timeline-content{
+        width: 90%;
+        float: right;
+    }
+    .services-timeline .timeline-icon{
+        margin: 0;
+        left: -6px;
+    }
+    .services-timeline .timeline-content.left{
+        text-align: left;
+    }
+}
+
 
 /*== Three Box Pan ==*/
 
