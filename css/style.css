@@ -327,15 +327,6 @@ header[role="header"].header-top section p{ font-size:19px; line-height:20px; fo
 }
 
 
-
-/*== Read-More ==*/
-
-.read-more-section{ background-color: rgb(247,247,248)}
-
-.read-more-text{ width: 50%}
-
-.headshot {	height: 237px}
-
 /*== Three Box Pan ==*/
 
 .three-box-pan{ overflow:hidden; padding-top:81px}
