@@ -330,6 +330,18 @@ header[role="header"].header-top section p{ font-size:19px; line-height:20px; fo
     margin: 0;
 }
 
+
+/*== Projects Section ==*/
+
+.projects-section {
+	padding: 100px 0px;
+}
+
+.projects-section img {
+	width: 100%;
+}
+
+
 /*== Services Timeline ==*/
 
 .services-timeline-section{
