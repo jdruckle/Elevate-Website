@@ -318,6 +318,17 @@ header[role="header"].header-top section p{ font-size:19px; line-height:20px; fo
 }
 
 
+/* Services page */
+
+.service-item img {
+	padding-top: 20px;
+}
+
+.service-item h3 {
+	text-align: center;
+}
+
+
 /*== Impact Projects Section ==*/
 
 .impact-projects-section {
