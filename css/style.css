@@ -232,6 +232,16 @@ header[role="header"].header-top section p{ font-size:19px; line-height:20px; fo
 	margin-right: auto;
 }
 
+.team-section .lg-img {
+	width: 50%;
+}
+
+@media screen and (max-width: 767px){
+	.team-section .lg-img {
+		width: 100%;
+	}
+}
+
 /*== checkbox-section ==*/
 
 .checkbox-section {
