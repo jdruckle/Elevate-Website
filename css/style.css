@@ -6,6 +6,8 @@ html {
 
 	-webkit-text-size-adjust: 100%;
 
+	scroll-behavior: smooth;
+
 }
 
 *, *:before, *:after {
@@ -82,6 +84,17 @@ blockquote:before, blockquote:after, q:before, q:after {
 
 }
 
+.read-more {
+    color: #e5b021;
+}
+
+.read-more:hover {
+    color: #c2961f;
+		transition: all ease 0.5s;
+		-webkit-transition: all ease 0.5s;
+		-moz-transition: all ease 0.5s;
+}
+
 a {
 
 	text-decoration: none;
@@ -110,7 +123,7 @@ a:focus, img:focus, button:focus, .btn:focus {
 
 ::-moz-selection {
 
- background-color:#6bb551;
+ background-color:#e5b021;
 
  color:#fff;
 
@@ -120,7 +133,7 @@ a:focus, img:focus, button:focus, .btn:focus {
 
 ::selection {
 
-	background-color: #6bb551;
+	background-color: #e5b021;
 
 	color: #fff;
 
