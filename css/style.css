@@ -682,11 +682,9 @@ header[role="header"].header-top section p{ font-size:19px; line-height:20px; fo
 
 /* Contact Form */
 
-.contact-form input[type="text"],.contact-form input[type="email"],.contact-form textarea{ height:70px; outline:none; display:block; border:1px solid #dbdbdb; font-size:16px; line-height:17px; color:#8f8f8f; width:100%; padding:0 41px}
+.contact-form input,.contact-form input[type="email"],.contact-form textarea{ height:70px; outline:none; display:block; border:1px solid #dbdbdb; font-size:16px; line-height:17px; color:#8f8f8f; width:100%; padding:0 41px}
 
 .contact-form input[type="text"]:focus,.contact-form input[type="email"]:focus,.contact-form textarea:focus{ background-color:#f2f1f1}
-
-.contact-form input[type="email"]{ border-left:none}
 
 .contact-form input::-webkit-input-placeholder {color:#8f8f8f; }
 
