@@ -44,6 +44,27 @@
   <!-- pop-up -->
   <link href="css/popup.css" rel="stylesheet" type="text/css">
 
+
+  <!-- YouTube Player -->
+  <!--                -->
+  <!-- MyList Styles  -->
+  <link rel="stylesheet" href="css/mylist-player.css" />
+
+  <!-- MyList PLAYER SETTINGS -->
+  <script type="text/javascript">
+  var playListID = ["PLZsRGU53TCgaziUQuX6APP5-VOqJl0fN_"]; // replace with your desired youtube playlist ID
+  var apiKey = "AIzaSyB6DMxA38H5oVE2LBIXoFi5Hu-XSYLPVYE"; // this default YouTube API key will work but you should change it to your own
+  var autoPlayNext = 1; // auto play next video in list when current ends? 0 for no. 1 for yes.
+  var showPlayerControls = 1; // display YouTube video player controls? 0 for no. 1 for yes.
+  var showTitlesInList = 1; // display video titles under each thumbnail in playlist? 0 for no. 1 for yes.
+</script>
+
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- MyList Javascript -->
+<script src="js/mylist-player.js"></script>
+
 </head>
 
 
@@ -102,25 +123,21 @@
 
     <!-- banner Text -->
     <section class="text-center">
-      <h2>Resources</h2>
+      <h2>Wyoming's Everyday Leaders</h2>
       <br>
-      <div>
-        <h3>Them resources be good</h3>
-      </div>
-        <br>
-        <a  href="# main-wrapper"><i class="read-more fas fa-arrow-circle-down fa-6x"></i></a>
-      </section>
-      <!-- banner Text -->
+      <a  href="# main-wrapper"><i class="read-more fas fa-arrow-circle-down fa-6x"></i></a>
+    </section>
+    <!-- banner Text -->
 
-      <!-- banner image -->
-      <figure>
-        <div class="parallax-window item tp-banner-container" data-parallax="scroll" data-image-src="images/backgrounds/bg-7.jpg"></div>
-      </figure>
-      <!-- banner image -->
+    <!-- banner image -->
+    <figure>
+      <div class="parallax-window item tp-banner-container" data-parallax="scroll" data-image-src="images/backgrounds/bg-9.jpg"></div>
+    </figure>
+    <!-- banner image -->
 
 
 
-    </header>
+  </header>
   <!-- header -->
 
   <!-- main -->
@@ -131,15 +148,14 @@
       <div class="container mt-5">
         <div class="row">
           <div class="col-md-1"></div>
-          <div class="col-md-5">
-            <h1>Podcasts</h1>
+          <div class="col-md-10">
+            <img style="max-width: 100%;" src="images/Banner-Audio-page001.jpg">
             <hr>
-            <iframe src="https://anchor.fm/wypod/embed" height="102px" width="100%" frameborder="0" scrolling="no"></iframe>
+            <iframe src="https://castbox.fm/app/castbox/player/id2950137?v=8.22.11&autoplay=0" frameborder="0" width="100%" height="500"></iframe>
             <br><br>
-            <p>Have a suggestion for someone we should interview? Email us at <a href="mailto:thewypod@gmail.com">thewypod@gmail.com</a>.
-          </div>
-          <div class="col-md-5">
-            <img style="max-width: 100%;" src="images/podcast-logo.png" alt="">
+            <div class="text-center">
+              <h3>Have a suggestion for someone we should interview? Email us at <a href="mailto:thewypod@gmail.com">thewypod@gmail.com</a>.</h3>
+            </div>
           </div>
           <div class="col-md-1"></div>
         </div>
@@ -147,47 +163,45 @@
     </section>
     <!-- podcasts -->
 
-    <!-- youtube desktop -->
-    <section class="about-us py-5 desktop" id="youtube">
+    <!-- youtube -->
+    <section class="youtube py-5" id="youtube">
       <div class="container mt-5">
         <div class="row">
           <div class="col-md-1"></div>
-          <div class="col-md-5">
-            <img style="max-width: 100%;" src="images/podcast-logo.png" alt="">
-          </div>
-          <div class="col-md-5">
-            <h1>YouTube</h1>
+          <div class="col-md-10">
+            <img style="max-width: 100%;" src="images/Banner-Video-page001.jpg">
             <hr>
-            <iframe src="https://anchor.fm/wypod/embed" height="102px" width="100%" frameborder="0" scrolling="no"></iframe>
+            <div id="player-container1" class="player-container">
+              <!-- THE YOUTUBE PLAYER -->
+              <div class="mlvp-container">
+                <div id="vid_frame1"></div>
+              </div>
+              <!-- LEFT AND RIGHT ARROWS -->
+              <div class="mlvp-arrows">
+                <div class="mlvp-arrow-left"><i class="demo-icon icon-left-open">&#xe800;</i></div>
+                <div class="mlvp-arrow-right"><i class="demo-icon icon-right-open">&#xe801;</i></div>
+              </div>
+              <!-- THE PLAYLIST -->
+              <div class="mlvp-list-container">
+                <div class="mlvp-list noselect" ></div>
+              </div>
+            </div>
             <br><br>
-            <p>Have a suggestion for someone we should interview? Email us at <a href="mailto:thewypod@gmail.com">thewypod@gmail.com</a>.
+            <div class="text-center">
+              <h3>Have a suggestion for someone we should interview? Email us at <a href="mailto:thewypod@gmail.com">thewypod@gmail.com</a>.</h3>
+            </div>
           </div>
           <div class="col-md-1"></div>
         </div>
       </div>
     </section>
-    <!-- youtube desktop -->
+    <!-- youtube -->
 
-    <!-- youtube mobile -->
-    <section class="about-us py-5 mobile" id="youtube">
-      <div class="container mt-5">
-        <div class="row">
-          <div class="col-md-1"></div>
-          <div class="col-md-5">
-            <h1>YouTube</h1>
-            <hr>
-            <iframe src="https://anchor.fm/wypod/embed" height="102px" width="100%" frameborder="0" scrolling="no"></iframe>
-            <br><br>
-            <p>Have a suggestion for someone we should interview? Email us at <a href="mailto:thewypod@gmail.com">thewypod@gmail.com</a>.
-          </div>
-          <div class="col-md-5">
-            <img style="max-width: 100%;" src="images/podcast-logo.png" alt="">
-          </div>
-          <div class="col-md-1"></div>
-        </div>
-      </div>
-    </section>
-    <!-- youtube mobile -->
+
+    <div class="powr-contact-form" id="ac25f873_1593898340"></div><script src="https://www.powr.io/powr.js?platform=embed"></script>
+
+
+
 
 
 
@@ -214,49 +228,49 @@
       </div>
     </footer>
     <!-- footer --></main>
-  <!-- main -->
+    <!-- main -->
 
 
 
 
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 
-  <script src="js/jquery.min.js" type="text/javascript"></script>
-
-
-
-  <script src="js/parallax.min.js" type="text/javascript"></script>
-
-  <script type="text/javascript">
-
-  $('.parallax-window').parallax({});
-
-  </script>
-
-  <script src="js/main.js" type="text/javascript"></script>
-
-  <script src="js/custom.js" type="text/javascript"></script>
-
-  <script src="js/jquery.magnific-popup.min.js" type="text/javascript"></script>
-
-  <script src="js/jquery.contact.js" type="text/javascript"></script>
-
-  <script src="js/bootstrap.min.js" type="text/javascript"></script>
-
-  <script src="js/html5shiv.min.js" type="text/javascript"></script>
-
-  <script src="js/readmore.min.js" type="text/javascript"></script>
-
-  <script>
-  $('.read-more-text').readmore({speed: 500, afterToggle: function(trigger, element, expanded) {
-    if(! expanded) { // The "Close" link was clicked
-    $('html, body').animate( { scrollTop: element.offset().top - 150 }, {duration: 100 } );
-  }
-}});
-</script>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
 
 
-</body>
 
-</html>
+    <script src="js/parallax.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+    $('.parallax-window').parallax({});
+
+    </script>
+
+    <script src="js/main.js" type="text/javascript"></script>
+
+    <script src="js/custom.js" type="text/javascript"></script>
+
+    <script src="js/jquery.magnific-popup.min.js" type="text/javascript"></script>
+
+    <script src="js/jquery.contact.js" type="text/javascript"></script>
+
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+    <script src="js/html5shiv.min.js" type="text/javascript"></script>
+
+    <script src="js/readmore.min.js" type="text/javascript"></script>
+
+    <script>
+    $('.read-more-text').readmore({speed: 500, afterToggle: function(trigger, element, expanded) {
+      if(! expanded) { // The "Close" link was clicked
+        $('html, body').animate( { scrollTop: element.offset().top - 150 }, {duration: 100 } );
+      }
+    }});
+    </script>
+
+
+  </body>
+
+  </html>
