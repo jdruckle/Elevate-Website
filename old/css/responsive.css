@@ -1,0 +1,117 @@
+/* Responsive class design */
+.mobile {
+    display: none;
+}
+.desktop {
+    display: auto;
+}
+@media screen and (max-width: 736px) {
+    .mobile {
+        display: block;
+    }
+    .desktop {
+        display: none;
+    }
+}
+/* md */
+
+@media (max-width: 1199px) {
+
+  .checkbox-table .checkbox-body-2 ul li:nth-child(odd) { background-color: #fafafa}
+  .checkbox-table .checkbox-body-2 ul li:nth-child(even) { background-color: #fff}
+}
+
+/* sm */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	header.header-top[role="header"] hgroup nav ul > li > a{ padding:0 5px 0 9px}
+
+	header.header-top[role="header"] section{ top:14%}
+
+	.section-two section article{ padding-right:20px; padding-left:5%; padding-top:20px}
+
+	.contact-form{ padding-left:20px; padding-right:20px}
+
+	.section-two article p br,.slider-pan section article br,.section-five header[role="title-page"] h4 br, .section-five header[role="title-page"] h2 br{ display:none}
+
+}
+
+/* xs */
+
+@media (max-width: 767px) {
+
+	header.header-top[role="header"] .container{ padding-top:10px; z-index:6}
+
+	header.header-top[role="header"] section h2{ font-size:26px; line-height:28px; margin-bottom:2px}
+
+	header.header-top[role="header"] section p{ font-size:15px; line-height:30px; margin:0 3%; padding-top:5px}
+
+	header.header-top[role="header"] section a{ font-size:14px; padding:0 20px; line-height:55px}
+
+	header.header-top[role="header"] hgroup{ position:relative}
+
+	header.header-top[role="header"] hgroup nav { margin-top:0}
+
+	header.header-top[role="header"] hgroup nav .navbar-toggle{ position:absolute; margin:0; top:-33px; right:15px}
+
+
+
+	header.header-top[role="header"] .navbar-fixed-top h1 img{ padding-top: 10px; width:60%}
+
+	header.header-top[role="header"] hgroup nav ul{ text-align:center; background-color:rgba(0,0,0,0.8); padding:10px}
+
+	header.header-top[role="header"] hgroup nav ul > li{ display:block;}
+
+
+	.section-one section article{ padding-left:0; padding-right:0; padding-top:0px}
+
+	.section-one section:last-child article{ padding-left:0}
+
+	.slider-pan section article{ margin:0 4%}
+
+	.slider-pan section article br,.section-three header[role="title-page"] h4 br, .section-three header[role="title-page"] h2 br,.section-two article p br{ display:none}
+
+  #quote-carousel { min-height: 475px}
+	.section-two header[role="title-page"]{ padding-bottom:20px}
+
+	.contact-form{ padding-left:0; padding-right:0}
+
+	.contact-form input[type="email"]{ border-left:1px solid #dbdbdb; margin:20px 0}
+
+	.contact-form textarea{border-top:1px solid #dbdbdb;}
+
+	.footer{ padding:30px 0}
+
+	.socil-icons a{ margin:0 2px; width:30px; height:30px; font-size:15px; line-height:30px}
+
+	.footer nav{ padding-top:10px}
+
+}
+
+@media (max-width: 550px) {
+  .section-one { min-height: 500px}
+}
+@media (max-width: 460px) {
+  #quote-carousel { min-height: 475px}
+  .headshot { width: 125px; height: 125px}
+}
+@media (max-width: 414px) {
+
+	header.header-top[role="header"] section h2{ font-size:36px; line-height:41px}
+
+  header.header-top[role="header"] .parallax-window{ min-height: 800px}
+  .section-one { min-height: 515px}
+  #quote-carousel { min-height: 600px; padding-bottom: 0px}
+
+  body a.button-header{ font-size: 12px}
+  .hb1 h3, .hb2 h3, .hb3 h3{font-size: 18px}
+}
+
+@media (max-width: 350px) {
+  .section-one { min-height: 585px}
+}
+
+@media (min-width: 1200px) {
+   .section-one .button-area { padding-top:185px}
+}
